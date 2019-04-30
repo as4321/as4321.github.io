@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="us-en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Wind Speed vs. Latitude </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+        <div class="navbar-container container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html" style="color: white;">Lattitude</a>
+            </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown" id="large-screen-dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="cloud.html"> Clouds</a></li>
+                  <li><a href="windspeed.html">Wind Speed</a></li>
+                  <li><a href="temperature.html">Temperature</a></li>
+                  <li><a href="humidity.html">Humidity</a></li>
+                </ul>
+              </li>
+              <a href="#" class="mobile-button" id="small-screen-dropdown" role="button">Visualizations<span class="caret"></span></a>
+            <li><a href="comparison.html">Comparison</a></li>
+            <li><a href="data.html">Data</a></li>
+          </ul>
+        </div>
+      </div>  
+    </nav>
+    <div class="content-container container-fluid">
+            <div class="row">
+              <main class="col-md-7 col-xs-12">
+                <div class="main-padding">
+                  <h1 class="header">Wind Speed</h1>
+                  <hr>
+                  <section class="main-content">
+                    <img class="main-image-nonfloat" src="LatitudevsWindSpeedPlot.png" alt="Wind Speed vs. Latitude">
+                    <p> Wind speed does not seem to have an overall relationship to wind speed. The only characteristics of note seem to be that the highest wind speeds show up at the most extreme latitudes (60 and -60).</p>
+                  </section>
+                </div>
+              </main>
+              <side class="col-md-5 col-xs-12">
+                    <div class="side-padding">
+                      <h2 class="header">Visualizations</h2>
+                      <hr>
+                      <section class="container-fluid">
+                        <div class="row side-row">
+                          <div class="col-md-6 col-xs-3">
+                            <a href="cloud.html">
+                              <img src="Latitudevs.Clouds Plot.png" alt="Cloudy" class="side-image">
+                            </a>
+                          </div>       
+                          <div class="col-md-6 col-xs-3">
+                            <a href="windspeed.html">
+                              <img src="LatitudevsWindSpeedPlot.png" alt="Wind Speed vs. Latitude" class="side-image">
+                            </a>
+                          </div>
+                          <div class="w-100"></div>
+                          <div class="col-md-6 col-xs-3">
+                            <a href="temperature.html">
+                              <img src="LatitudevsTemperaturePlot.png" alt="Temperature vss Latitude" class="side-image">
+                            </a>
+                          </div>
+                          <div class="col-md-6 col-xs-3">
+                            <a href="humidity.html">
+                              <img src="LatitudevsHumidityPlot.png" alt="Humidity vs Latitude" class="side-image">
+                            </a>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </side>    
+            </div>
+          </div>
+          <footer class="page-footer font-small">
+            <div class="footer-copyright text-center py-3">© 2019 Copyright: UNC Data Science Bootcamp</a>
+            </div>
+          </footer>
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        </body>  
+</html>
